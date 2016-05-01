@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Master Perizinan</h1>
+    <table border="1px">
+      <tr>
+        <th width = 1%>Nomor</th>
+        <th width = 1%>Kode Izin</th>
+        <th width = 1%>Jenis Izin</th>
+        <th width = 1%>Dasar</th>
+        <th width = 1%>Pertemuan</th>
+        <th width = 1%>KPI</th>
+        <th width = 1%>Aktif</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>2016</td>
+        <td>SIUP</td>
+        <td></td>
+        <td>2</td>
+        <td>KPI</td>
+        <td>Aktif</td>
+      </tr>
+    </table>
+    <br>
+    <input type="submit" value="Export to Excel" name="exportExcel"></input>
+    <input type="submit" value="Tambah baru" name="tambahBaru"></input>
+    <input type="submit" value="Update" name="update"></input>
+
+    <div class="formMasterIzin">
+      <br>
+      <fieldset>
+        <legend>Form Permohonan Izin</legend>
+        <tr>
+          <td>Nomor</td>
+          <td>:</td>
+          <td>
+            <input type="text" name="nomor" placeholder="nomor">
+          </td>
+        </tr>
+        <br>
+        <tr>
+          <td>Kode Izin</td>
+          <td>:</td>
+          <td>
+            <input type="text" name="kodeIzin" placeholder="kode izin">
+          </td>
+        </tr>
+        <br>
+        <tr>
+          <td>Jenis Izin</td>
+          <td> : </td>
+          <td>
+            <input type="text" name="jenisIzin" placeholder="jenis izin">
+          </td>
+        </tr>
+        <br>
+        <tr>
+          <td>Dasar</td>
+          <td> : </td>
+          <td>
+            <input type="text" name="dasar" placeholder="dasar">
+          </td>
+        </tr>
+        <br>
+        <tr>
+          <td>Pertemuan</td>
+          <td> : </td>
+          <td>
+            <input type="text" name="pertemuan" placeholder="pertemuan">
+          </td>
+        </tr>
+        <br>
+        <tr>
+          <td>KPI</td>
+          <td> : </td>
+          <td>
+            <input type="text" name="kpi" placeholder="kpi">
+          </td>
+        </tr>
+        <br>
+        <tr>
+          <td>Aktif</td>
+          <td> : </td>
+          <td>
+            <input type="text" name="aktif" placeholder="aktif">
+          </td>
+        </tr>
+        <br>
+        <br>
+        <input type="submit" value="Submit" name="submit"></input>
+      </fieldset>
+    </div>
+  </body>
+</html>
